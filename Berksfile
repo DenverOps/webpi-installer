@@ -1,6 +1,6 @@
-site :opscode
+source "https://supermarket.getchef.com"
 
 metadata
-cookbook 'webpi', github: 'opscode-cookbooks/webpi'
-cookbook 'windows', github: 'joefitzgerald/windows'
-cookbook 'minitest-handler', github: 'btm/minitest-handler-cookbook'
+cookbook 'webpi', '~> 1.2.8'
+cookbook 'windows', '~> 1.34.6'
+cookbook 'minitest-handler', '~> 1.3.2'
